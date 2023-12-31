@@ -8,6 +8,6 @@ int main(){
         sum=sum+x;
 
     }
-    cout<<"Sum of array is "<<sum<<endl;
+    cout<<"Sum of array is 1"<<sum<<endl;
     return 0;
 }

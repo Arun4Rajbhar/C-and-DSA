@@ -16,7 +16,7 @@ public:
 
 
 int main(){
-    rectangle r1;
+    rectangle r1;//object is created in stack
     rectangle *p;//initializing a pointer of type rectangle
     rectangle *q=new rectangle();//object in the heap memory using pointer
     q->bri=78;

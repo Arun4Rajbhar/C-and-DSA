@@ -5,7 +5,12 @@ class rectangle{
         int len;
         int bri;
     public:
-        int setLen(int l){//setting the len and bri, private variable using member of calss
+    // there is always a default constructor provided by compiler which will assign some garbage value to the len and bri
+
+
+    
+
+        void setLen(int l){//setting the len and bri, private variable using member of calss
             if(l>=0){
                 len=l;
             }
@@ -14,7 +19,7 @@ class rectangle{
                 LenError();
             }
         }  
-        int setBri(int b){
+        void setBri(int b){
               if(b>=0){
                 bri=b;
             }

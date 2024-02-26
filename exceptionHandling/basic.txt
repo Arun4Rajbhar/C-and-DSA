@@ -1,0 +1,4 @@
+types of error
+1 syntax  compiler
+2 logical debuger
+3 runtime error 
